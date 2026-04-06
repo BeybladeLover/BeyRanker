@@ -1,7 +1,37 @@
-body { font-family: Arial, sans-serif; background: #f0f8ff; color: #0b3d91; }
-h1 { text-align: center; }
-.container { width: 600px; margin: auto; }
-input, select, button { padding: 5px; margin: 5px; }
-textarea { width: 100%; height: 150px; background: #d4f0f0; }
-#suggestions { height: 100px; width: 100%; overflow-y: auto; }
-a { cursor: pointer; color: #0b3d91; text-decoration: underline; }
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  color: #0b3d91;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+input, select, button {
+  padding: 5px;
+  margin: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  background: #d4f0f0;
+}
+
+#suggestions {
+  height: 100px;
+  width: 200px;
+  overflow-y: scroll;
+}
+
+a {
+  cursor: pointer;
+  color: #0b3d91;
+  text-decoration: underline;
+}
