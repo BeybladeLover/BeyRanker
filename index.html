@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BeyRanker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>BeyRanker</h1>
+<div class="container">
+
+  <h2>Search Combo</h2>
+  <input type="text" id="searchInput" placeholder="Enter combo">
+  <button id="searchBtn">Search</button>
+  <div id="suggestions"></div>
+  <textarea id="comboDetails" readonly></textarea>
+
+  <h2>Add / Rate Combo</h2>
+  <label>Blade:</label>
+  <select id="blade">
+    <option>dran sword</option>
+    <option>hells scythe</option>
+    <option>wizard arrow</option>
+    <option>knight shield</option>
+    <option>shark edge</option>
+    <option>phoenix wing</option>
+  </select><br>
+
+  <label>Ratchet:</label>
+  <select id="ratchet">
+    <option>3-60</option>
+    <option>4-60</option>
+    <option>5-60</option>
+    <option>3-80</option>
+    <option>4-80</option>
+  </select><br>
+
+  <label>Bit:</label>
+  <select id="bit">
+    <option>f</option>
+    <option>t</option>
+    <option>b</option>
+    <option>n</option>
+    <option>a</option>
+  </select><br>
+
+  <input type="text" id="nameInput" placeholder="Display Name"><br>
+  <input type="number" id="ratingInput" placeholder="Rating 1-10" min="1" max="10"><br>
+  <button id="addBtn">Add / Rate Combo</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
